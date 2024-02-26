@@ -118,13 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="6b4d95a645c0399b46a21963b4200edbf841ea31_s2_n3_y1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6b4d95a645c0399b46a21963b4200edbf841ea31_s2_n3_y1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apotik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apotik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Apotek Menyala Abangkuh 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apotek Menyala Abangkuh 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Apotek Menyala Abangkuh 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apotek Menyala Abangkuh 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="menyala1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menyala1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="menyala" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menyala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="514d8ae20270fd879dac9f3e1e5d784cec049155_s2_n3_y1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\514d8ae20270fd879dac9f3e1e5d784cec049155_s2_n3_y1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
