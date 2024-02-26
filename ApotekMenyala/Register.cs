@@ -16,10 +16,5 @@ namespace ApotekMenyala
         {
             InitializeComponent();
         }
-
-        private void poisonRadioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

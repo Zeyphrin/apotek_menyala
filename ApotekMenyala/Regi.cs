@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace ApotekMenyala
 {
-    public partial class Register : Form
+    public partial class Regi : Form
     {
-        public Register()
+        public Regi()
         {
             InitializeComponent();
         }
 
-        private void poisonRadioButton1_CheckedChanged(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

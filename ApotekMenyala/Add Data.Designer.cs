@@ -1,6 +1,6 @@
 ﻿namespace ApotekMenyala
 {
-    partial class Form1
+    partial class Register
     {
         /// <summary>
         /// Required designer variable.
