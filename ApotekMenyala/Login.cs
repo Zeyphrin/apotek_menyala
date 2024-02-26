@@ -12,6 +12,9 @@ namespace ApotekMenyala
 
         }
 
+        private void Login_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
