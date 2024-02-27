@@ -154,17 +154,26 @@ namespace ApotekMenyala
                 RadioButton_3Kali.Checked = true;
             }
 
-
-            string checkBoxValues = selectedRow.Cells[7].Value.ToString(); // Ambil nilai dari sel yang berisi nilai untuk ketiga CheckBox (Misalnya, "True,False,True")
-
+            string checkBoxValues = selectedRow.Cells[7].Value.ToString(); // Misalkan nilainya "Pagi,Siang,Malam"
             string[] values = checkBoxValues.Split(','); // Pisahkan nilai berdasarkan koma
 
-            // Pastikan array memiliki cukup elemen sebelum mengaksesnya
-            if (values.Length == 3)
+            foreach (string value in values)
             {
-                CheckBox_Malam.Checked = Convert.ToBoolean(values[0]);
-                CheckBox_Pagi.Checked = Convert.ToBoolean(values[1]);
-                CheckBox_Siang.Checked = Convert.ToBoolean(values[2]);
+                switch (value)
+                {
+                    case "Pagi":
+                        CheckBox_Pagi.Checked = true;
+                        break;
+                    case "Siang":
+                        CheckBox_Siang.Checked = true;
+                        break;
+                    case "Malam":
+                        CheckBox_Malam.Checked = true;
+                        break;
+                    default:
+                        // Lakukan sesuatu jika nilai tidak sesuai dengan yang diharapkan
+                        break;
+                }
             }
 
         }
