@@ -1,6 +1,6 @@
 ﻿namespace ApotekMenyala
 {
-    partial class Register
+    partial class AddData
     {
         /// <summary>
         /// Required designer variable.
@@ -28,350 +28,327 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddData));
             panel2 = new Panel();
+            panel4 = new Panel();
+            RadioButton_NonSub = new ReaLTaiizor.Controls.PoisonRadioButton();
+            label3 = new Label();
+            RadioButton_Subsidi = new ReaLTaiizor.Controls.PoisonRadioButton();
             panel3 = new Panel();
-            poisonCheckBox3 = new ReaLTaiizor.Controls.PoisonCheckBox();
-            poisonCheckBox2 = new ReaLTaiizor.Controls.PoisonCheckBox();
-            poisonCheckBox1 = new ReaLTaiizor.Controls.PoisonCheckBox();
-            poisonRadioButton5 = new ReaLTaiizor.Controls.PoisonRadioButton();
-            poisonRadioButton4 = new ReaLTaiizor.Controls.PoisonRadioButton();
-            poisonRadioButton3 = new ReaLTaiizor.Controls.PoisonRadioButton();
-            poisonComboBox1 = new ReaLTaiizor.Controls.PoisonComboBox();
-            poisonRadioButton7 = new ReaLTaiizor.Controls.PoisonRadioButton();
-            poisonRadioButton6 = new ReaLTaiizor.Controls.PoisonRadioButton();
-            poisonRadioButton2 = new ReaLTaiizor.Controls.PoisonRadioButton();
-            poisonRadioButton1 = new ReaLTaiizor.Controls.PoisonRadioButton();
-            poisonTextBox2 = new ReaLTaiizor.Controls.PoisonTextBox();
-            poisonTextBox3 = new ReaLTaiizor.Controls.PoisonTextBox();
-            poisonTextBox1 = new ReaLTaiizor.Controls.PoisonTextBox();
+            CheckBox_Malam = new ReaLTaiizor.Controls.PoisonCheckBox();
+            CheckBox_Siang = new ReaLTaiizor.Controls.PoisonCheckBox();
+            CheckBox_Pagi = new ReaLTaiizor.Controls.PoisonCheckBox();
+            RadioButton_3Kali = new ReaLTaiizor.Controls.PoisonRadioButton();
+            RadioButton_2Kali = new ReaLTaiizor.Controls.PoisonRadioButton();
+            RadioButton_1Kali = new ReaLTaiizor.Controls.PoisonRadioButton();
+            ComboBox_JenisObat = new ReaLTaiizor.Controls.PoisonComboBox();
+            RadioButton_TidakAlergi = new ReaLTaiizor.Controls.PoisonRadioButton();
+            RadioButton_Alergi = new ReaLTaiizor.Controls.PoisonRadioButton();
+            TextBox_Keluhan = new ReaLTaiizor.Controls.PoisonTextBox();
+            TextBox_NamaObat = new ReaLTaiizor.Controls.PoisonTextBox();
+            TextBox_NamaPasien = new ReaLTaiizor.Controls.PoisonTextBox();
             label2 = new Label();
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
-            label3 = new Label();
             label1 = new Label();
             dataGridView1 = new DataGridView();
             button8 = new Button();
             button5 = new Button();
             button7 = new Button();
-            button6 = new Button();
+            button_Create = new Button();
             button4 = new Button();
+            panel5 = new Panel();
             bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
-            panel1.SuspendLayout();
+            pictureBox1 = new PictureBox();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            panel1 = new Panel();
             panel2.SuspendLayout();
+            panel4.SuspendLayout();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.DarkSeaGreen;
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
-            panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(206, 732);
-            panel1.TabIndex = 0;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.IndianRed;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Helvetica", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.ForeColor = SystemColors.ControlLightLight;
-            button3.Location = new Point(0, 670);
-            button3.Name = "button3";
-            button3.Size = new Size(206, 62);
-            button3.TabIndex = 0;
-            button3.Text = "Log Out";
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Ivory;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(0, 276);
-            button2.Name = "button2";
-            button2.Size = new Size(206, 62);
-            button2.TabIndex = 0;
-            button2.Text = "Pasien Baru";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Ivory;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(0, 208);
-            button1.Name = "button1";
-            button1.Size = new Size(206, 62);
-            button1.TabIndex = 0;
-            button1.Text = "Data Pasien";
-            button1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
             panel2.BackColor = SystemColors.Window;
+            panel2.Controls.Add(panel4);
             panel2.Controls.Add(panel3);
-            panel2.Controls.Add(poisonComboBox1);
-            panel2.Controls.Add(poisonRadioButton7);
-            panel2.Controls.Add(poisonRadioButton6);
-            panel2.Controls.Add(poisonRadioButton2);
-            panel2.Controls.Add(poisonRadioButton1);
-            panel2.Controls.Add(poisonTextBox2);
-            panel2.Controls.Add(poisonTextBox3);
-            panel2.Controls.Add(poisonTextBox1);
+            panel2.Controls.Add(ComboBox_JenisObat);
+            panel2.Controls.Add(RadioButton_TidakAlergi);
+            panel2.Controls.Add(RadioButton_Alergi);
+            panel2.Controls.Add(TextBox_Keluhan);
+            panel2.Controls.Add(TextBox_NamaObat);
+            panel2.Controls.Add(TextBox_NamaPasien);
             panel2.Controls.Add(label2);
             panel2.Controls.Add(label7);
             panel2.Controls.Add(label6);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(label4);
-            panel2.Controls.Add(label3);
             panel2.Controls.Add(label1);
             panel2.Controls.Add(dataGridView1);
             panel2.Controls.Add(button8);
             panel2.Controls.Add(button5);
             panel2.Controls.Add(button7);
-            panel2.Controls.Add(button6);
+            panel2.Controls.Add(button_Create);
             panel2.Controls.Add(button4);
+            panel2.Controls.Add(panel5);
             panel2.Location = new Point(225, 77);
             panel2.Name = "panel2";
             panel2.Size = new Size(904, 643);
             panel2.TabIndex = 1;
             // 
+            // panel4
+            // 
+            panel4.Controls.Add(RadioButton_NonSub);
+            panel4.Controls.Add(label3);
+            panel4.Controls.Add(RadioButton_Subsidi);
+            panel4.Location = new Point(3, 267);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(299, 77);
+            panel4.TabIndex = 6;
+            // 
+            // RadioButton_NonSub
+            // 
+            RadioButton_NonSub.AutoSize = true;
+            RadioButton_NonSub.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            RadioButton_NonSub.Location = new Point(116, 38);
+            RadioButton_NonSub.Name = "RadioButton_NonSub";
+            RadioButton_NonSub.Size = new Size(98, 19);
+            RadioButton_NonSub.TabIndex = 3;
+            RadioButton_NonSub.Text = "Non Subsidi";
+            RadioButton_NonSub.UseSelectable = true;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(0, 8);
+            label3.Name = "label3";
+            label3.Size = new Size(100, 20);
+            label3.TabIndex = 1;
+            label3.Text = "Jenis Pasien";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // RadioButton_Subsidi
+            // 
+            RadioButton_Subsidi.AutoSize = true;
+            RadioButton_Subsidi.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            RadioButton_Subsidi.Location = new Point(3, 38);
+            RadioButton_Subsidi.Name = "RadioButton_Subsidi";
+            RadioButton_Subsidi.Size = new Size(107, 19);
+            RadioButton_Subsidi.TabIndex = 3;
+            RadioButton_Subsidi.Text = "Subsidi (BPJS)";
+            RadioButton_Subsidi.UseSelectable = true;
+            RadioButton_Subsidi.CheckedChanged += poisonRadioButton1_CheckedChanged;
+            // 
             // panel3
             // 
-            panel3.Controls.Add(poisonCheckBox3);
-            panel3.Controls.Add(poisonCheckBox2);
-            panel3.Controls.Add(poisonCheckBox1);
-            panel3.Controls.Add(poisonRadioButton5);
-            panel3.Controls.Add(poisonRadioButton4);
-            panel3.Controls.Add(poisonRadioButton3);
+            panel3.Controls.Add(CheckBox_Malam);
+            panel3.Controls.Add(CheckBox_Siang);
+            panel3.Controls.Add(CheckBox_Pagi);
+            panel3.Controls.Add(RadioButton_3Kali);
+            panel3.Controls.Add(RadioButton_2Kali);
+            panel3.Controls.Add(RadioButton_1Kali);
             panel3.Location = new Point(393, 243);
             panel3.Name = "panel3";
             panel3.Size = new Size(302, 86);
             panel3.TabIndex = 5;
             // 
-            // poisonCheckBox3
+            // CheckBox_Malam
             // 
-            poisonCheckBox3.AutoSize = true;
-            poisonCheckBox3.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonCheckBox3.Location = new Point(122, 57);
-            poisonCheckBox3.Name = "poisonCheckBox3";
-            poisonCheckBox3.Size = new Size(67, 19);
-            poisonCheckBox3.TabIndex = 4;
-            poisonCheckBox3.Text = "Malam";
-            poisonCheckBox3.UseSelectable = true;
+            CheckBox_Malam.AutoSize = true;
+            CheckBox_Malam.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            CheckBox_Malam.Location = new Point(122, 57);
+            CheckBox_Malam.Name = "CheckBox_Malam";
+            CheckBox_Malam.Size = new Size(67, 19);
+            CheckBox_Malam.TabIndex = 4;
+            CheckBox_Malam.Text = "Malam";
+            CheckBox_Malam.UseSelectable = true;
             // 
-            // poisonCheckBox2
+            // CheckBox_Siang
             // 
-            poisonCheckBox2.AutoSize = true;
-            poisonCheckBox2.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonCheckBox2.Location = new Point(122, 32);
-            poisonCheckBox2.Name = "poisonCheckBox2";
-            poisonCheckBox2.Size = new Size(58, 19);
-            poisonCheckBox2.TabIndex = 4;
-            poisonCheckBox2.Text = "Siang";
-            poisonCheckBox2.UseSelectable = true;
+            CheckBox_Siang.AutoSize = true;
+            CheckBox_Siang.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            CheckBox_Siang.Location = new Point(122, 32);
+            CheckBox_Siang.Name = "CheckBox_Siang";
+            CheckBox_Siang.Size = new Size(58, 19);
+            CheckBox_Siang.TabIndex = 4;
+            CheckBox_Siang.Text = "Siang";
+            CheckBox_Siang.UseSelectable = true;
             // 
-            // poisonCheckBox1
+            // CheckBox_Pagi
             // 
-            poisonCheckBox1.AutoSize = true;
-            poisonCheckBox1.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonCheckBox1.Location = new Point(122, 7);
-            poisonCheckBox1.Name = "poisonCheckBox1";
-            poisonCheckBox1.Size = new Size(51, 19);
-            poisonCheckBox1.TabIndex = 4;
-            poisonCheckBox1.Text = "Pagi";
-            poisonCheckBox1.UseSelectable = true;
+            CheckBox_Pagi.AutoSize = true;
+            CheckBox_Pagi.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            CheckBox_Pagi.Location = new Point(122, 7);
+            CheckBox_Pagi.Name = "CheckBox_Pagi";
+            CheckBox_Pagi.Size = new Size(51, 19);
+            CheckBox_Pagi.TabIndex = 4;
+            CheckBox_Pagi.Text = "Pagi";
+            CheckBox_Pagi.UseSelectable = true;
             // 
-            // poisonRadioButton5
+            // RadioButton_3Kali
             // 
-            poisonRadioButton5.AutoSize = true;
-            poisonRadioButton5.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonRadioButton5.Location = new Point(3, 57);
-            poisonRadioButton5.Name = "poisonRadioButton5";
-            poisonRadioButton5.Size = new Size(58, 19);
-            poisonRadioButton5.TabIndex = 3;
-            poisonRadioButton5.Text = "3 Kali";
-            poisonRadioButton5.UseSelectable = true;
-            poisonRadioButton5.CheckedChanged += poisonRadioButton1_CheckedChanged;
+            RadioButton_3Kali.AutoSize = true;
+            RadioButton_3Kali.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            RadioButton_3Kali.Location = new Point(3, 57);
+            RadioButton_3Kali.Name = "RadioButton_3Kali";
+            RadioButton_3Kali.Size = new Size(58, 19);
+            RadioButton_3Kali.TabIndex = 3;
+            RadioButton_3Kali.Text = "3 Kali";
+            RadioButton_3Kali.UseSelectable = true;
+            RadioButton_3Kali.CheckedChanged += poisonRadioButton1_CheckedChanged;
             // 
-            // poisonRadioButton4
+            // RadioButton_2Kali
             // 
-            poisonRadioButton4.AutoSize = true;
-            poisonRadioButton4.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonRadioButton4.Location = new Point(3, 32);
-            poisonRadioButton4.Name = "poisonRadioButton4";
-            poisonRadioButton4.Size = new Size(58, 19);
-            poisonRadioButton4.TabIndex = 3;
-            poisonRadioButton4.Text = "2 Kali";
-            poisonRadioButton4.UseSelectable = true;
-            poisonRadioButton4.CheckedChanged += poisonRadioButton1_CheckedChanged;
+            RadioButton_2Kali.AutoSize = true;
+            RadioButton_2Kali.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            RadioButton_2Kali.Location = new Point(3, 32);
+            RadioButton_2Kali.Name = "RadioButton_2Kali";
+            RadioButton_2Kali.Size = new Size(58, 19);
+            RadioButton_2Kali.TabIndex = 3;
+            RadioButton_2Kali.Text = "2 Kali";
+            RadioButton_2Kali.UseSelectable = true;
+            RadioButton_2Kali.CheckedChanged += poisonRadioButton1_CheckedChanged;
             // 
-            // poisonRadioButton3
+            // RadioButton_1Kali
             // 
-            poisonRadioButton3.AutoSize = true;
-            poisonRadioButton3.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonRadioButton3.Location = new Point(3, 7);
-            poisonRadioButton3.Name = "poisonRadioButton3";
-            poisonRadioButton3.Size = new Size(58, 19);
-            poisonRadioButton3.TabIndex = 3;
-            poisonRadioButton3.Text = "1 Kali";
-            poisonRadioButton3.UseSelectable = true;
-            poisonRadioButton3.CheckedChanged += poisonRadioButton1_CheckedChanged;
+            RadioButton_1Kali.AutoSize = true;
+            RadioButton_1Kali.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            RadioButton_1Kali.Location = new Point(3, 7);
+            RadioButton_1Kali.Name = "RadioButton_1Kali";
+            RadioButton_1Kali.Size = new Size(58, 19);
+            RadioButton_1Kali.TabIndex = 3;
+            RadioButton_1Kali.Text = "1 Kali";
+            RadioButton_1Kali.UseSelectable = true;
+            RadioButton_1Kali.CheckedChanged += poisonRadioButton1_CheckedChanged;
             // 
-            // poisonComboBox1
+            // ComboBox_JenisObat
             // 
-            poisonComboBox1.FormattingEnabled = true;
-            poisonComboBox1.ItemHeight = 23;
-            poisonComboBox1.Items.AddRange(new object[] { "Tablet", "Pil ", "Kapsul", "Sirup" });
-            poisonComboBox1.Location = new Point(393, 105);
-            poisonComboBox1.Name = "poisonComboBox1";
-            poisonComboBox1.Size = new Size(302, 29);
-            poisonComboBox1.TabIndex = 4;
-            poisonComboBox1.UseSelectable = true;
+            ComboBox_JenisObat.FormattingEnabled = true;
+            ComboBox_JenisObat.ItemHeight = 23;
+            ComboBox_JenisObat.Items.AddRange(new object[] { "Tablet", "Pil ", "Kapsul", "Sirup" });
+            ComboBox_JenisObat.Location = new Point(393, 105);
+            ComboBox_JenisObat.Name = "ComboBox_JenisObat";
+            ComboBox_JenisObat.Size = new Size(302, 29);
+            ComboBox_JenisObat.TabIndex = 4;
+            ComboBox_JenisObat.UseSelectable = true;
             // 
-            // poisonRadioButton7
+            // RadioButton_TidakAlergi
             // 
-            poisonRadioButton7.AutoSize = true;
-            poisonRadioButton7.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonRadioButton7.Location = new Point(459, 186);
-            poisonRadioButton7.Name = "poisonRadioButton7";
-            poisonRadioButton7.Size = new Size(96, 19);
-            poisonRadioButton7.TabIndex = 3;
-            poisonRadioButton7.Text = "Tidak Alergi";
-            poisonRadioButton7.UseSelectable = true;
+            RadioButton_TidakAlergi.AutoSize = true;
+            RadioButton_TidakAlergi.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            RadioButton_TidakAlergi.Location = new Point(459, 186);
+            RadioButton_TidakAlergi.Name = "RadioButton_TidakAlergi";
+            RadioButton_TidakAlergi.Size = new Size(96, 19);
+            RadioButton_TidakAlergi.TabIndex = 3;
+            RadioButton_TidakAlergi.Text = "Tidak Alergi";
+            RadioButton_TidakAlergi.UseSelectable = true;
             // 
-            // poisonRadioButton6
+            // RadioButton_Alergi
             // 
-            poisonRadioButton6.AutoSize = true;
-            poisonRadioButton6.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonRadioButton6.Location = new Point(393, 186);
-            poisonRadioButton6.Name = "poisonRadioButton6";
-            poisonRadioButton6.Size = new Size(60, 19);
-            poisonRadioButton6.TabIndex = 3;
-            poisonRadioButton6.Text = "Alergi";
-            poisonRadioButton6.UseSelectable = true;
-            poisonRadioButton6.CheckedChanged += poisonRadioButton1_CheckedChanged;
+            RadioButton_Alergi.AutoSize = true;
+            RadioButton_Alergi.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            RadioButton_Alergi.Location = new Point(393, 186);
+            RadioButton_Alergi.Name = "RadioButton_Alergi";
+            RadioButton_Alergi.Size = new Size(60, 19);
+            RadioButton_Alergi.TabIndex = 3;
+            RadioButton_Alergi.Text = "Alergi";
+            RadioButton_Alergi.UseSelectable = true;
+            RadioButton_Alergi.CheckedChanged += poisonRadioButton1_CheckedChanged;
             // 
-            // poisonRadioButton2
-            // 
-            poisonRadioButton2.AutoSize = true;
-            poisonRadioButton2.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonRadioButton2.Location = new Point(116, 305);
-            poisonRadioButton2.Name = "poisonRadioButton2";
-            poisonRadioButton2.Size = new Size(98, 19);
-            poisonRadioButton2.TabIndex = 3;
-            poisonRadioButton2.Text = "Non Subsidi";
-            poisonRadioButton2.UseSelectable = true;
-            // 
-            // poisonRadioButton1
-            // 
-            poisonRadioButton1.AutoSize = true;
-            poisonRadioButton1.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
-            poisonRadioButton1.Location = new Point(3, 305);
-            poisonRadioButton1.Name = "poisonRadioButton1";
-            poisonRadioButton1.Size = new Size(107, 19);
-            poisonRadioButton1.TabIndex = 3;
-            poisonRadioButton1.Text = "Subsidi (BPJS)";
-            poisonRadioButton1.UseSelectable = true;
-            poisonRadioButton1.CheckedChanged += poisonRadioButton1_CheckedChanged;
-            // 
-            // poisonTextBox2
+            // TextBox_Keluhan
             // 
             // 
             // 
             // 
-            poisonTextBox2.CustomButton.Image = null;
-            poisonTextBox2.CustomButton.Location = new Point(145, 2);
-            poisonTextBox2.CustomButton.Name = "";
-            poisonTextBox2.CustomButton.Size = new Size(151, 151);
-            poisonTextBox2.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
-            poisonTextBox2.CustomButton.TabIndex = 1;
-            poisonTextBox2.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
-            poisonTextBox2.CustomButton.UseSelectable = true;
-            poisonTextBox2.CustomButton.Visible = false;
-            poisonTextBox2.Location = new Point(3, 105);
-            poisonTextBox2.MaxLength = 32767;
-            poisonTextBox2.Name = "poisonTextBox2";
-            poisonTextBox2.PasswordChar = '\0';
-            poisonTextBox2.ScrollBars = ScrollBars.None;
-            poisonTextBox2.SelectedText = "";
-            poisonTextBox2.SelectionLength = 0;
-            poisonTextBox2.SelectionStart = 0;
-            poisonTextBox2.ShortcutsEnabled = true;
-            poisonTextBox2.Size = new Size(299, 156);
-            poisonTextBox2.TabIndex = 2;
-            poisonTextBox2.UseSelectable = true;
-            poisonTextBox2.WaterMarkColor = Color.FromArgb(109, 109, 109);
-            poisonTextBox2.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
+            TextBox_Keluhan.CustomButton.Image = null;
+            TextBox_Keluhan.CustomButton.Location = new Point(145, 2);
+            TextBox_Keluhan.CustomButton.Name = "";
+            TextBox_Keluhan.CustomButton.Size = new Size(151, 151);
+            TextBox_Keluhan.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
+            TextBox_Keluhan.CustomButton.TabIndex = 1;
+            TextBox_Keluhan.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
+            TextBox_Keluhan.CustomButton.UseSelectable = true;
+            TextBox_Keluhan.CustomButton.Visible = false;
+            TextBox_Keluhan.Location = new Point(3, 105);
+            TextBox_Keluhan.MaxLength = 32767;
+            TextBox_Keluhan.Name = "TextBox_Keluhan";
+            TextBox_Keluhan.PasswordChar = '\0';
+            TextBox_Keluhan.ScrollBars = ScrollBars.None;
+            TextBox_Keluhan.SelectedText = "";
+            TextBox_Keluhan.SelectionLength = 0;
+            TextBox_Keluhan.SelectionStart = 0;
+            TextBox_Keluhan.ShortcutsEnabled = true;
+            TextBox_Keluhan.Size = new Size(299, 156);
+            TextBox_Keluhan.TabIndex = 2;
+            TextBox_Keluhan.UseSelectable = true;
+            TextBox_Keluhan.WaterMarkColor = Color.FromArgb(109, 109, 109);
+            TextBox_Keluhan.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
             // 
-            // poisonTextBox3
-            // 
-            // 
-            // 
-            // 
-            poisonTextBox3.CustomButton.Image = null;
-            poisonTextBox3.CustomButton.Location = new Point(273, 2);
-            poisonTextBox3.CustomButton.Name = "";
-            poisonTextBox3.CustomButton.Size = new Size(23, 23);
-            poisonTextBox3.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
-            poisonTextBox3.CustomButton.TabIndex = 1;
-            poisonTextBox3.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
-            poisonTextBox3.CustomButton.UseSelectable = true;
-            poisonTextBox3.CustomButton.Visible = false;
-            poisonTextBox3.Location = new Point(393, 39);
-            poisonTextBox3.MaxLength = 32767;
-            poisonTextBox3.Name = "poisonTextBox3";
-            poisonTextBox3.PasswordChar = '\0';
-            poisonTextBox3.ScrollBars = ScrollBars.None;
-            poisonTextBox3.SelectedText = "";
-            poisonTextBox3.SelectionLength = 0;
-            poisonTextBox3.SelectionStart = 0;
-            poisonTextBox3.ShortcutsEnabled = true;
-            poisonTextBox3.Size = new Size(299, 28);
-            poisonTextBox3.TabIndex = 2;
-            poisonTextBox3.UseSelectable = true;
-            poisonTextBox3.WaterMarkColor = Color.FromArgb(109, 109, 109);
-            poisonTextBox3.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
-            // 
-            // poisonTextBox1
+            // TextBox_NamaObat
             // 
             // 
             // 
             // 
-            poisonTextBox1.CustomButton.Image = null;
-            poisonTextBox1.CustomButton.Location = new Point(273, 2);
-            poisonTextBox1.CustomButton.Name = "";
-            poisonTextBox1.CustomButton.Size = new Size(23, 23);
-            poisonTextBox1.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
-            poisonTextBox1.CustomButton.TabIndex = 1;
-            poisonTextBox1.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
-            poisonTextBox1.CustomButton.UseSelectable = true;
-            poisonTextBox1.CustomButton.Visible = false;
-            poisonTextBox1.Location = new Point(3, 39);
-            poisonTextBox1.MaxLength = 32767;
-            poisonTextBox1.Name = "poisonTextBox1";
-            poisonTextBox1.PasswordChar = '\0';
-            poisonTextBox1.ScrollBars = ScrollBars.None;
-            poisonTextBox1.SelectedText = "";
-            poisonTextBox1.SelectionLength = 0;
-            poisonTextBox1.SelectionStart = 0;
-            poisonTextBox1.ShortcutsEnabled = true;
-            poisonTextBox1.Size = new Size(299, 28);
-            poisonTextBox1.TabIndex = 2;
-            poisonTextBox1.UseSelectable = true;
-            poisonTextBox1.WaterMarkColor = Color.FromArgb(109, 109, 109);
-            poisonTextBox1.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
+            TextBox_NamaObat.CustomButton.Image = null;
+            TextBox_NamaObat.CustomButton.Location = new Point(273, 2);
+            TextBox_NamaObat.CustomButton.Name = "";
+            TextBox_NamaObat.CustomButton.Size = new Size(23, 23);
+            TextBox_NamaObat.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
+            TextBox_NamaObat.CustomButton.TabIndex = 1;
+            TextBox_NamaObat.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
+            TextBox_NamaObat.CustomButton.UseSelectable = true;
+            TextBox_NamaObat.CustomButton.Visible = false;
+            TextBox_NamaObat.Location = new Point(393, 39);
+            TextBox_NamaObat.MaxLength = 32767;
+            TextBox_NamaObat.Name = "TextBox_NamaObat";
+            TextBox_NamaObat.PasswordChar = '\0';
+            TextBox_NamaObat.ScrollBars = ScrollBars.None;
+            TextBox_NamaObat.SelectedText = "";
+            TextBox_NamaObat.SelectionLength = 0;
+            TextBox_NamaObat.SelectionStart = 0;
+            TextBox_NamaObat.ShortcutsEnabled = true;
+            TextBox_NamaObat.Size = new Size(299, 28);
+            TextBox_NamaObat.TabIndex = 2;
+            TextBox_NamaObat.UseSelectable = true;
+            TextBox_NamaObat.WaterMarkColor = Color.FromArgb(109, 109, 109);
+            TextBox_NamaObat.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
+            // 
+            // TextBox_NamaPasien
+            // 
+            // 
+            // 
+            // 
+            TextBox_NamaPasien.CustomButton.Image = null;
+            TextBox_NamaPasien.CustomButton.Location = new Point(273, 2);
+            TextBox_NamaPasien.CustomButton.Name = "";
+            TextBox_NamaPasien.CustomButton.Size = new Size(23, 23);
+            TextBox_NamaPasien.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
+            TextBox_NamaPasien.CustomButton.TabIndex = 1;
+            TextBox_NamaPasien.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
+            TextBox_NamaPasien.CustomButton.UseSelectable = true;
+            TextBox_NamaPasien.CustomButton.Visible = false;
+            TextBox_NamaPasien.Location = new Point(3, 39);
+            TextBox_NamaPasien.MaxLength = 32767;
+            TextBox_NamaPasien.Name = "TextBox_NamaPasien";
+            TextBox_NamaPasien.PasswordChar = '\0';
+            TextBox_NamaPasien.ScrollBars = ScrollBars.None;
+            TextBox_NamaPasien.SelectedText = "";
+            TextBox_NamaPasien.SelectionLength = 0;
+            TextBox_NamaPasien.SelectionStart = 0;
+            TextBox_NamaPasien.ShortcutsEnabled = true;
+            TextBox_NamaPasien.Size = new Size(299, 28);
+            TextBox_NamaPasien.TabIndex = 2;
+            TextBox_NamaPasien.UseSelectable = true;
+            TextBox_NamaPasien.WaterMarkColor = Color.FromArgb(109, 109, 109);
+            TextBox_NamaPasien.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
             // 
             // label2
             // 
@@ -423,17 +400,6 @@
             label4.TabIndex = 1;
             label4.Text = "Nama Obat";
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(1, 282);
-            label3.Name = "label3";
-            label3.Size = new Size(100, 20);
-            label3.TabIndex = 1;
-            label3.Text = "Jenis Pasien";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -447,11 +413,13 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(0, 350);
+            dataGridView1.Location = new Point(9, 350);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(895, 242);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellClick += dataGridView1_CellContentClick;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // button8
             // 
@@ -465,6 +433,7 @@
             button8.TabIndex = 0;
             button8.Text = "Close";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button5
             // 
@@ -478,6 +447,7 @@
             button5.TabIndex = 0;
             button5.Text = "Delete Data";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button7
             // 
@@ -490,18 +460,20 @@
             button7.TabIndex = 0;
             button7.Text = "Clear ";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
-            // button6
+            // button_Create
             // 
-            button6.BackColor = Color.DarkSeaGreen;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.Location = new Point(736, 243);
-            button6.Name = "button6";
-            button6.Size = new Size(159, 42);
-            button6.TabIndex = 0;
-            button6.Text = "Create";
-            button6.UseVisualStyleBackColor = false;
+            button_Create.BackColor = Color.DarkSeaGreen;
+            button_Create.FlatStyle = FlatStyle.Flat;
+            button_Create.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button_Create.Location = new Point(736, 243);
+            button_Create.Name = "button_Create";
+            button_Create.Size = new Size(159, 42);
+            button_Create.TabIndex = 0;
+            button_Create.Text = "Create";
+            button_Create.UseVisualStyleBackColor = false;
+            button_Create.Click += button_Create_Click;
             // 
             // button4
             // 
@@ -514,6 +486,14 @@
             button4.TabIndex = 0;
             button4.Text = "Edit Data";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
+            // panel5
+            // 
+            panel5.Location = new Point(393, 152);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(302, 65);
+            panel5.TabIndex = 7;
             // 
             // bigLabel1
             // 
@@ -527,63 +507,130 @@
             bigLabel1.TabIndex = 2;
             bigLabel1.Text = "Pasien Baru";
             // 
-            // Form1
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(-12, -9);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(103, 97);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.IndianRed;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Helvetica", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = SystemColors.ControlLightLight;
+            button3.Location = new Point(0, 670);
+            button3.Name = "button3";
+            button3.Size = new Size(206, 62);
+            button3.TabIndex = 0;
+            button3.Text = "Log Out";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Ivory;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(0, 276);
+            button2.Name = "button2";
+            button2.Size = new Size(206, 62);
+            button2.TabIndex = 0;
+            button2.Text = "Pasien Baru";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Ivory;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(0, 208);
+            button1.Name = "button1";
+            button1.Size = new Size(206, 62);
+            button1.TabIndex = 0;
+            button1.Text = "Data Pasien";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.DarkSeaGreen;
+            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(button3);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(206, 732);
+            panel1.TabIndex = 3;
+            // 
+            // AddData
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1141, 732);
+            Controls.Add(panel1);
             Controls.Add(bigLabel1);
             Controls.Add(panel2);
-            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Form1";
+            Name = "AddData";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dashboard";
-            panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Panel panel1;
-        private Button button3;
-        private Button button2;
-        private Button button1;
         private Panel panel2;
         private ReaLTaiizor.Controls.BigLabel bigLabel1;
         private DataGridView dataGridView1;
         private Button button5;
         private Button button4;
         private Label label1;
-        private ReaLTaiizor.Controls.PoisonTextBox poisonTextBox2;
-        private ReaLTaiizor.Controls.PoisonTextBox poisonTextBox1;
+        private ReaLTaiizor.Controls.PoisonTextBox TextBox_Keluhan;
+        private ReaLTaiizor.Controls.PoisonTextBox TextBox_NamaPasien;
         private Label label2;
-        private ReaLTaiizor.Controls.PoisonRadioButton poisonRadioButton2;
-        private ReaLTaiizor.Controls.PoisonRadioButton poisonRadioButton1;
+        private ReaLTaiizor.Controls.PoisonRadioButton RadioButton_NonSub;
+        private ReaLTaiizor.Controls.PoisonRadioButton RadioButton_Subsidi;
         private Label label3;
-        private ReaLTaiizor.Controls.PoisonComboBox poisonComboBox1;
-        private ReaLTaiizor.Controls.PoisonTextBox poisonTextBox3;
+        private ReaLTaiizor.Controls.PoisonComboBox ComboBox_JenisObat;
+        private ReaLTaiizor.Controls.PoisonTextBox TextBox_NamaObat;
         private Label label5;
         private Label label4;
         private Panel panel3;
         private Label label6;
-        private ReaLTaiizor.Controls.PoisonCheckBox poisonCheckBox3;
-        private ReaLTaiizor.Controls.PoisonCheckBox poisonCheckBox2;
-        private ReaLTaiizor.Controls.PoisonCheckBox poisonCheckBox1;
-        private ReaLTaiizor.Controls.PoisonRadioButton poisonRadioButton5;
-        private ReaLTaiizor.Controls.PoisonRadioButton poisonRadioButton4;
-        private ReaLTaiizor.Controls.PoisonRadioButton poisonRadioButton3;
-        private ReaLTaiizor.Controls.PoisonRadioButton poisonRadioButton7;
-        private ReaLTaiizor.Controls.PoisonRadioButton poisonRadioButton6;
+        private ReaLTaiizor.Controls.PoisonCheckBox CheckBox_Malam;
+        private ReaLTaiizor.Controls.PoisonCheckBox CheckBox_Siang;
+        private ReaLTaiizor.Controls.PoisonCheckBox CheckBox_Pagi;
+        private ReaLTaiizor.Controls.PoisonRadioButton RadioButton_3Kali;
+        private ReaLTaiizor.Controls.PoisonRadioButton RadioButton_2Kali;
+        private ReaLTaiizor.Controls.PoisonRadioButton RadioButton_1Kali;
+        private ReaLTaiizor.Controls.PoisonRadioButton RadioButton_TidakAlergi;
+        private ReaLTaiizor.Controls.PoisonRadioButton RadioButton_Alergi;
         private Label label7;
         private Button button7;
-        private Button button6;
+        private Button button_Create;
         private Button button8;
+        private PictureBox pictureBox1;
+        private Button button3;
+        private Button button2;
+        private Button button1;
+        private Panel panel1;
+        private Panel panel4;
+        private Panel panel5;
     }
 }

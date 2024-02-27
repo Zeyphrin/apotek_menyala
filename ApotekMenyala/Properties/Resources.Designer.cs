@@ -10,8 +10,9 @@
 
 namespace ApotekMenyala.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,7 +24,8 @@ namespace ApotekMenyala.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+        internal static Image _514d8ae20270fd879dac9f3e1e5d784cec049155_s2_n3_y1;
+        internal static Image _6b4d95a645c0399b46a21963b4200edbf841ea31_s2_n3_y1;
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;

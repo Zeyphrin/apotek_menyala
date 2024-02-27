@@ -28,104 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            poisonTextBox1 = new ReaLTaiizor.Controls.PoisonTextBox();
-            poisonTextBox3 = new ReaLTaiizor.Controls.PoisonTextBox();
-            button1 = new Button();
-            button5 = new Button();
+            TextBox_Username = new ReaLTaiizor.Controls.PoisonTextBox();
+            TextBox_Password = new ReaLTaiizor.Controls.PoisonTextBox();
+            Button_Login = new Button();
+            button_Regsiter = new Button();
             label1 = new Label();
             label2 = new Label();
             bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
+            CheckBox_ShowPass = new ReaLTaiizor.Controls.PoisonCheckBox();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // poisonTextBox1
+            // TextBox_Username
             // 
             // 
             // 
             // 
-            poisonTextBox1.CustomButton.Image = null;
-            poisonTextBox1.CustomButton.Location = new Point(211, 2);
-            poisonTextBox1.CustomButton.Name = "";
-            poisonTextBox1.CustomButton.Size = new Size(23, 23);
-            poisonTextBox1.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
-            poisonTextBox1.CustomButton.TabIndex = 1;
-            poisonTextBox1.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
-            poisonTextBox1.CustomButton.UseSelectable = true;
-            poisonTextBox1.CustomButton.Visible = false;
-            poisonTextBox1.Location = new Point(32, 183);
-            poisonTextBox1.MaxLength = 32767;
-            poisonTextBox1.Name = "poisonTextBox1";
-            poisonTextBox1.PasswordChar = '\0';
-            poisonTextBox1.ScrollBars = ScrollBars.None;
-            poisonTextBox1.SelectedText = "";
-            poisonTextBox1.SelectionLength = 0;
-            poisonTextBox1.SelectionStart = 0;
-            poisonTextBox1.ShortcutsEnabled = true;
-            poisonTextBox1.Size = new Size(237, 28);
-            poisonTextBox1.TabIndex = 14;
-            poisonTextBox1.UseSelectable = true;
-            poisonTextBox1.WaterMarkColor = Color.FromArgb(109, 109, 109);
-            poisonTextBox1.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
+            TextBox_Username.CustomButton.Image = null;
+            TextBox_Username.CustomButton.Location = new Point(211, 2);
+            TextBox_Username.CustomButton.Name = "";
+            TextBox_Username.CustomButton.Size = new Size(23, 23);
+            TextBox_Username.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
+            TextBox_Username.CustomButton.TabIndex = 1;
+            TextBox_Username.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
+            TextBox_Username.CustomButton.UseSelectable = true;
+            TextBox_Username.CustomButton.Visible = false;
+            TextBox_Username.Location = new Point(32, 183);
+            TextBox_Username.MaxLength = 32767;
+            TextBox_Username.Name = "TextBox_Username";
+            TextBox_Username.PasswordChar = '\0';
+            TextBox_Username.ScrollBars = ScrollBars.None;
+            TextBox_Username.SelectedText = "";
+            TextBox_Username.SelectionLength = 0;
+            TextBox_Username.SelectionStart = 0;
+            TextBox_Username.ShortcutsEnabled = true;
+            TextBox_Username.Size = new Size(237, 28);
+            TextBox_Username.TabIndex = 14;
+            TextBox_Username.UseSelectable = true;
+            TextBox_Username.WaterMarkColor = Color.FromArgb(109, 109, 109);
+            TextBox_Username.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
             // 
-            // poisonTextBox3
-            // 
-            // 
+            // TextBox_Password
             // 
             // 
-            poisonTextBox3.CustomButton.Image = null;
-            poisonTextBox3.CustomButton.Location = new Point(211, 2);
-            poisonTextBox3.CustomButton.Name = "";
-            poisonTextBox3.CustomButton.Size = new Size(23, 23);
-            poisonTextBox3.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
-            poisonTextBox3.CustomButton.TabIndex = 1;
-            poisonTextBox3.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
-            poisonTextBox3.CustomButton.UseSelectable = true;
-            poisonTextBox3.CustomButton.Visible = false;
-            poisonTextBox3.Location = new Point(32, 245);
-            poisonTextBox3.MaxLength = 32767;
-            poisonTextBox3.Name = "poisonTextBox3";
-            poisonTextBox3.PasswordChar = '\0';
-            poisonTextBox3.ScrollBars = ScrollBars.None;
-            poisonTextBox3.SelectedText = "";
-            poisonTextBox3.SelectionLength = 0;
-            poisonTextBox3.SelectionStart = 0;
-            poisonTextBox3.ShortcutsEnabled = true;
-            poisonTextBox3.Size = new Size(237, 28);
-            poisonTextBox3.TabIndex = 15;
-            poisonTextBox3.UseSelectable = true;
-            poisonTextBox3.WaterMarkColor = Color.FromArgb(109, 109, 109);
-            poisonTextBox3.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
             // 
-            // button1
             // 
-            button1.BackColor = Color.Ivory;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(153, 288);
-            button1.Name = "button1";
-            button1.Size = new Size(116, 33);
-            button1.TabIndex = 12;
-            button1.Text = "Login";
-            button1.UseVisualStyleBackColor = false;
+            TextBox_Password.CustomButton.Image = null;
+            TextBox_Password.CustomButton.Location = new Point(211, 2);
+            TextBox_Password.CustomButton.Name = "";
+            TextBox_Password.CustomButton.Size = new Size(23, 23);
+            TextBox_Password.CustomButton.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
+            TextBox_Password.CustomButton.TabIndex = 1;
+            TextBox_Password.CustomButton.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
+            TextBox_Password.CustomButton.UseSelectable = true;
+            TextBox_Password.CustomButton.Visible = false;
+            TextBox_Password.Location = new Point(32, 245);
+            TextBox_Password.MaxLength = 32767;
+            TextBox_Password.Name = "TextBox_Password";
+            TextBox_Password.PasswordChar = '*';
+            TextBox_Password.ScrollBars = ScrollBars.None;
+            TextBox_Password.SelectedText = "";
+            TextBox_Password.SelectionLength = 0;
+            TextBox_Password.SelectionStart = 0;
+            TextBox_Password.ShortcutsEnabled = true;
+            TextBox_Password.Size = new Size(237, 28);
+            TextBox_Password.TabIndex = 15;
+            TextBox_Password.UseSelectable = true;
+            TextBox_Password.WaterMarkColor = Color.FromArgb(109, 109, 109);
+            TextBox_Password.WaterMarkFont = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Pixel);
+            TextBox_Password.Click += TextBox_Password_Click;
             // 
-            // button5
+            // Button_Login
             // 
-            button5.BackColor = Color.DarkSeaGreen;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(32, 288);
-            button5.Name = "button5";
-            button5.Size = new Size(115, 33);
-            button5.TabIndex = 13;
-            button5.Text = "Register";
-            button5.UseVisualStyleBackColor = false;
+            Button_Login.BackColor = Color.Ivory;
+            Button_Login.FlatStyle = FlatStyle.Flat;
+            Button_Login.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Button_Login.Location = new Point(32, 331);
+            Button_Login.Name = "Button_Login";
+            Button_Login.Size = new Size(116, 33);
+            Button_Login.TabIndex = 12;
+            Button_Login.Text = "Login";
+            Button_Login.UseVisualStyleBackColor = false;
+            Button_Login.Click += Button_Login_Click;
+            // 
+            // button_Regsiter
+            // 
+            button_Regsiter.BackColor = Color.DarkSeaGreen;
+            button_Regsiter.FlatStyle = FlatStyle.Flat;
+            button_Regsiter.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button_Regsiter.Location = new Point(154, 331);
+            button_Regsiter.Name = "button_Regsiter";
+            button_Regsiter.Size = new Size(115, 33);
+            button_Regsiter.TabIndex = 13;
+            button_Regsiter.Text = "Register";
+            button_Regsiter.UseVisualStyleBackColor = false;
+            button_Regsiter.Click += button_Regsiter_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Ricardo Medium", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(196, 224);
+            label1.Location = new Point(32, 224);
             label1.Name = "label1";
             label1.Size = new Size(73, 18);
             label1.TabIndex = 10;
@@ -135,7 +139,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Ricardo Medium", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(193, 162);
+            label2.Location = new Point(29, 162);
             label2.Name = "label2";
             label2.Size = new Size(76, 18);
             label2.TabIndex = 11;
@@ -147,22 +151,33 @@
             bigLabel1.BackColor = Color.Transparent;
             bigLabel1.Font = new Font("Ricardo Medium", 24.75F, FontStyle.Regular, GraphicsUnit.Point);
             bigLabel1.ForeColor = Color.Black;
-            bigLabel1.Location = new Point(36, 90);
+            bigLabel1.Location = new Point(29, 91);
             bigLabel1.Name = "bigLabel1";
             bigLabel1.Size = new Size(233, 42);
             bigLabel1.TabIndex = 9;
             bigLabel1.Text = "Register Page";
             // 
+            // CheckBox_ShowPass
+            // 
+            CheckBox_ShowPass.AutoSize = true;
+            CheckBox_ShowPass.FontSize = ReaLTaiizor.Extension.Poison.PoisonCheckBoxSize.Medium;
+            CheckBox_ShowPass.Location = new Point(32, 279);
+            CheckBox_ShowPass.Name = "CheckBox_ShowPass";
+            CheckBox_ShowPass.Size = new Size(120, 19);
+            CheckBox_ShowPass.TabIndex = 17;
+            CheckBox_ShowPass.Text = "Show Password";
+            CheckBox_ShowPass.UseSelectable = true;
+            CheckBox_ShowPass.CheckedChanged += CheckBox_ShowPass_CheckedChanged;
+            // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources._514d8ae20270fd879dac9f3e1e5d784cec049155_s2_n3_y1;
-            pictureBox1.Location = new Point(286, -6);
+            pictureBox1.Image = Properties.Resources._6b4d95a645c0399b46a21963b4200edbf841ea31_s2_n3_y1;
+            pictureBox1.Location = new Point(300, -3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(948, 559);
+            pictureBox1.Size = new Size(732, 462);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 16;
+            pictureBox1.TabIndex = 18;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // Regi
             // 
@@ -170,15 +185,17 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(663, 456);
             Controls.Add(pictureBox1);
-            Controls.Add(poisonTextBox1);
-            Controls.Add(poisonTextBox3);
-            Controls.Add(button1);
-            Controls.Add(button5);
+            Controls.Add(CheckBox_ShowPass);
+            Controls.Add(TextBox_Username);
+            Controls.Add(TextBox_Password);
+            Controls.Add(Button_Login);
+            Controls.Add(button_Regsiter);
             Controls.Add(label1);
             Controls.Add(label2);
             Controls.Add(bigLabel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Regi";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Regi";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -187,13 +204,14 @@
 
         #endregion
 
-        private ReaLTaiizor.Controls.PoisonTextBox poisonTextBox1;
-        private ReaLTaiizor.Controls.PoisonTextBox poisonTextBox3;
-        private Button button1;
-        private Button button5;
+        private ReaLTaiizor.Controls.PoisonTextBox TextBox_Username;
+        private ReaLTaiizor.Controls.PoisonTextBox TextBox_Password;
+        private Button Button_Login;
+        private Button button_Regsiter;
         private Label label1;
         private Label label2;
         private ReaLTaiizor.Controls.BigLabel bigLabel1;
+        private ReaLTaiizor.Controls.PoisonCheckBox CheckBox_ShowPass;
         private PictureBox pictureBox1;
     }
 }
