@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Regi));
             TextBox_Username = new ReaLTaiizor.Controls.PoisonTextBox();
             TextBox_Password = new ReaLTaiizor.Controls.PoisonTextBox();
             Button_Login = new Button();
@@ -171,10 +172,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources._6b4d95a645c0399b46a21963b4200edbf841ea31_s2_n3_y1;
-            pictureBox1.Location = new Point(300, -3);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(353, -3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(732, 462);
+            pictureBox1.Size = new Size(372, 466);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 18;
             pictureBox1.TabStop = false;
