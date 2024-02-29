@@ -169,6 +169,7 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(13, 78);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(904, 510);
             dataGridView1.TabIndex = 2;
@@ -177,7 +178,7 @@
             // 
             // button_Search
             // 
-            button_Search.BackColor = Color.PowderBlue;
+            button_Search.BackColor = Color.DarkSeaGreen;
             button_Search.FlatStyle = FlatStyle.Flat;
             button_Search.Font = new Font("Ricardo Medium", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button_Search.Location = new Point(821, 44);

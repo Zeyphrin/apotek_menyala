@@ -430,7 +430,7 @@
           }
         }
       },
-      "ReaLTaiizor/3.8.0": {
+      "ReaLTaiizor/3.8.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/ReaLTaiizor.dll": {
@@ -1552,10 +1552,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ReaLTaiizor/3.8.0": {
-      "sha512": "8037n1G1QsHDfXJfUFnC+ILGWQp+5dlbKpHaJFBtHvK34pj5K7wfVVnufBn33MOPPWoIHoQGQTGsq+uaTH0ZbA==",
+    "ReaLTaiizor/3.8.0.1": {
+      "sha512": "zAq3o5ofNhH8eSoq+Ndsg8TkWjT09UmRB2xcfP71Tn8ylTCiq5Scn8r2QzH9LAwW0B3Hod81ZRunrEOQq21zNw==",
       "type": "package",
-      "path": "realtaiizor/3.8.0",
+      "path": "realtaiizor/3.8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1576,7 +1576,7 @@
         "lib/net9.0-windows7.0/ReaLTaiizor.xml",
         "lib/netcoreapp3.1/ReaLTaiizor.dll",
         "lib/netcoreapp3.1/ReaLTaiizor.xml",
-        "realtaiizor.3.8.0.nupkg.sha512",
+        "realtaiizor.3.8.0.1.nupkg.sha512",
         "realtaiizor.nuspec"
       ]
     },
@@ -2596,7 +2596,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "Microsoft.Data.SqlClient >= 5.1.5",
-      "ReaLTaiizor >= 3.8.0",
+      "ReaLTaiizor >= 3.8.0.1",
       "System.Data.SqlClient >= 4.8.6",
       "iTextSharp >= 5.5.13.3"
     ]
@@ -2646,7 +2646,7 @@
           },
           "ReaLTaiizor": {
             "target": "Package",
-            "version": "[3.8.0, )"
+            "version": "[3.8.0.1, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",

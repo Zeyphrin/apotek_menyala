@@ -38,6 +38,7 @@
             bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
             CheckBox_ShowPass = new ReaLTaiizor.Controls.PoisonCheckBox();
             pictureBox1 = new PictureBox();
+            poisonButton_Close = new ReaLTaiizor.Controls.PoisonButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -180,11 +181,25 @@
             pictureBox1.TabIndex = 18;
             pictureBox1.TabStop = false;
             // 
+            // poisonButton_Close
+            // 
+            poisonButton_Close.BackColor = Color.IndianRed;
+            poisonButton_Close.Font = new Font("Ricardo", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            poisonButton_Close.Location = new Point(619, 12);
+            poisonButton_Close.Name = "poisonButton_Close";
+            poisonButton_Close.Size = new Size(32, 27);
+            poisonButton_Close.TabIndex = 19;
+            poisonButton_Close.Text = "X";
+            poisonButton_Close.UseSelectable = true;
+            poisonButton_Close.UseVisualStyleBackColor = false;
+            poisonButton_Close.Click += poisonButton_Close_Click;
+            // 
             // Regi
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(663, 456);
+            Controls.Add(poisonButton_Close);
             Controls.Add(pictureBox1);
             Controls.Add(CheckBox_ShowPass);
             Controls.Add(TextBox_Username);
@@ -214,5 +229,6 @@
         private ReaLTaiizor.Controls.BigLabel bigLabel1;
         private ReaLTaiizor.Controls.PoisonCheckBox CheckBox_ShowPass;
         private PictureBox pictureBox1;
+        private ReaLTaiizor.Controls.PoisonButton poisonButton_Close;
     }
 }

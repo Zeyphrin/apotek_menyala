@@ -9,7 +9,7 @@
       "ApotekMenyala/1.0.0": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.1.5",
-          "ReaLTaiizor": "3.8.0",
+          "ReaLTaiizor": "3.8.0.1",
           "System.Data.SqlClient": "4.8.6",
           "iTextSharp": "5.5.13.3"
         },
@@ -311,11 +311,11 @@
         }
       },
       "Microsoft.Win32.SystemEvents/6.0.0": {},
-      "ReaLTaiizor/3.8.0": {
+      "ReaLTaiizor/3.8.0.1": {
         "runtime": {
           "lib/net6.0-windows7.0/ReaLTaiizor.dll": {
-            "assemblyVersion": "3.8.0.0",
-            "fileVersion": "3.8.0.0"
+            "assemblyVersion": "3.8.0.1",
+            "fileVersion": "3.8.0.1"
           }
         }
       },
@@ -674,12 +674,12 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
-    "ReaLTaiizor/3.8.0": {
+    "ReaLTaiizor/3.8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8037n1G1QsHDfXJfUFnC+ILGWQp+5dlbKpHaJFBtHvK34pj5K7wfVVnufBn33MOPPWoIHoQGQTGsq+uaTH0ZbA==",
-      "path": "realtaiizor/3.8.0",
-      "hashPath": "realtaiizor.3.8.0.nupkg.sha512"
+      "sha512": "sha512-zAq3o5ofNhH8eSoq+Ndsg8TkWjT09UmRB2xcfP71Tn8ylTCiq5Scn8r2QzH9LAwW0B3Hod81ZRunrEOQq21zNw==",
+      "path": "realtaiizor/3.8.0.1",
+      "hashPath": "realtaiizor.3.8.0.1.nupkg.sha512"
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",

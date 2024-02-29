@@ -46,7 +46,7 @@
             },
             "ReaLTaiizor": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[3.8.0.1, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

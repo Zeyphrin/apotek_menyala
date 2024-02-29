@@ -105,5 +105,17 @@ namespace ApotekMenyala
             }
 
         }
+
+        private void poisonButton_Close_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Apakah Anda yakin ingin menutup halaman?", "Peringatan", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            // Memeriksa apakah pengguna menekan tombol Yes pada pesan peringatan
+            if (result == DialogResult.Yes)
+            {
+                // Menutup halaman
+                Application.Exit();
+            }
+        }
     }
 }

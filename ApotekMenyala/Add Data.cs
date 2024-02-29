@@ -298,25 +298,30 @@ namespace ApotekMenyala
                 int selectedRowIndex = dataGridView1.SelectedRows[0].Index;
                 string selectedNamaPasien = dataGridView1.Rows[selectedRowIndex].Cells["namapasien"].Value.ToString();
 
-                using (SqlConnection conn = new SqlConnection("Data Source=LUCIA;Initial Catalog=datapasien;Integrated Security=True"))
-                {
-                    try
-                    {
-                        conn.Open();
-                        SqlCommand cmdDelete = new SqlCommand("DELETE FROM datapasien WHERE namapasien = @namapasien", conn);
-                        cmdDelete.Parameters.AddWithValue("@namapasien", selectedNamaPasien);
-                        cmdDelete.ExecuteNonQuery();
+                DialogResult result = MessageBox.Show("Apakah Anda yakin ingin menghapus data pasien ini?", "Konfirmasi Hapus Data", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                        bind_data();
-                        MessageBox.Show("Data berhasil dihapus.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    catch (Exception ex)
+                if (result == DialogResult.Yes)
+                {
+                    using (SqlConnection conn = new SqlConnection("Data Source=LUCIA;Initial Catalog=datapasien;Integrated Security=True"))
                     {
-                        MessageBox.Show("Terjadi kesalahan: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    finally
-                    {
-                        conn.Close();
+                        try
+                        {
+                            conn.Open();
+                            SqlCommand cmdDelete = new SqlCommand("DELETE FROM datapasien WHERE namapasien = @namapasien", conn);
+                            cmdDelete.Parameters.AddWithValue("@namapasien", selectedNamaPasien);
+                            cmdDelete.ExecuteNonQuery();
+
+                            bind_data();
+                            MessageBox.Show("Data berhasil dihapus.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Terjadi kesalahan: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                        finally
+                        {
+                            conn.Close();
+                        }
                     }
                 }
             }

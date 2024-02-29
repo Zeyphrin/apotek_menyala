@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J85ZTqWvNmWLuWKxlxZ16YugOGSUR32MPq6urIAO+0feBS2Zi96AoeQalFCqOwQ9oP3gr7d6Ldtj0fDBUBarvQ==",
+  "dgSpecHash": "WMNBzIhj4Y+QQCATrA5WpiuwyoPku1U/e0a6sNa4UQ95L8LeAWvhdG26yiRAC0+oRk7dcBz5x/cZWXCkPxmK+g==",
   "success": true,
   "projectFilePath": "D:\\yahya\\school\\SMK\\Visual Studio\\ApotekMenyala\\ApotekMenyala\\ApotekMenyala.csproj",
   "expectedPackageFiles": [
@@ -27,7 +27,7 @@
     "C:\\Users\\HP VICTUS\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\microsoft.web.webview2.1.0.864.35.nupkg.sha512",
     "C:\\Users\\HP VICTUS\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\HP VICTUS\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\HP VICTUS\\.nuget\\packages\\realtaiizor\\3.8.0\\realtaiizor.3.8.0.nupkg.sha512",
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\realtaiizor\\3.8.0.1\\realtaiizor.3.8.0.1.nupkg.sha512",
     "C:\\Users\\HP VICTUS\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\HP VICTUS\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\HP VICTUS\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
